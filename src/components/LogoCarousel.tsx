@@ -49,7 +49,7 @@ const LogoCarousel = () => {
                   <img
                     src={logo}
                     alt={`Partner logo ${index + 1}`}
-                    className="max-h-full max-w-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                    className="max-h-full max-w-full object-contain filter transition-all duration-300"
                   />
                 </div>
               </CarouselItem>
