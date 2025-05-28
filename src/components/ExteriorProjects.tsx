@@ -29,7 +29,7 @@ const ExteriorProjects = () => {
             Renderizado Exterior
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-8 ml-auto max-w-md">
-            Experimente nuestra selección de diseños arquitectónicos y propiedades exclusivas
+            Fotorrealistmo y animaciones 3D que muestran el potencial completo del desarrollo. Ideal para comunicar escala, entorno y arquitectura en preventas, pitch de inversores y difusión comercial.
           </p>
           <Button 
             onClick={scrollToDiscover}

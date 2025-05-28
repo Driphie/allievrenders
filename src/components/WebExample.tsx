@@ -22,7 +22,7 @@ const WebExample = () => {
             Ejemplo De Web
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-md">
-            Descubre nuestras soluciones de diseño web para propiedades inmobiliarias
+            Diseño y desarrollo de sitios web orientados al real estate. Integración de renders, fichas técnicas, ubicación, formularios y contenido visual optimizado para captar leads y presentar proyectos con alto impacto profesional.
           </p>
           <Button 
             onClick={() => window.open('https://auravista.netlify.app/', '_blank')}

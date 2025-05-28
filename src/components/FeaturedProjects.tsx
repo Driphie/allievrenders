@@ -29,7 +29,7 @@ const FeaturedProjects = () => {
             Renderizado Interior
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-md">
-            Experimente nuestra selección de diseños arquitectónicos y propiedades exclusivas
+            Fotorrealismo y animaciones 3D de alta calidad, con enfoque en materiales, iluminación y diseño espacial. Creamos imágenes que transmiten realismo y estilo, optimizadas para ventas, marketing y toma de decisiones en etapa de proyecto.
           </p>
           <Button 
             onClick={scrollToDiscover}
