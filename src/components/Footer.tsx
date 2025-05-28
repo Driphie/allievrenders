@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           
           <div className="space-y-4">
-            <h4 className="font-semibold mb-4">Redireciones</h4>
+            <h4 className="font-semibold mb-4"></h4>
             <ul className="space-y-3 text-estate-300">
               <li>
                 <a href="#servicios" className="hover:text-white transition-colors duration-300 relative group">
