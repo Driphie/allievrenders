@@ -16,7 +16,7 @@ const PropertyTestimonial = ({ quote, name, role, image }: TestimonialProps) => 
           fill="currentColor"
           viewBox="0 0 32 32"
         >
-          <path d="M10 8c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10S15.5 8 10 8zm0 16c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zM28 8c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10S33.5 8 28 8zm0 16c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6z" />
+          <path d="" />
         </svg>
         
         <blockquote className="text-estate-700 text-lg md:text-xl leading-relaxed mt-6 mb-8">
