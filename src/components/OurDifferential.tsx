@@ -6,19 +6,15 @@ const OurDifferential = () => {
   const differentialPoints = [
     {
       icon: Users,
-      title: "Reuniones presenciales"
-    },
-    {
-      icon: HardHat,
-      title: "Asistencia a obra"
-    },
-    {
-      icon: Zap,
-      title: "Producción ágil y en equipo"
+      title: "Asistencia a obra y reuniones presenciales"
     },
     {
       icon: MessageCircle,
       title: "Comunicación clara y continua"
+    },
+    {
+      icon: Zap,
+      title: "Experiencias inmersivas : renders que conectan"
     }
   ];
 

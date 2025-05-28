@@ -144,8 +144,8 @@ export const propertiesData: Record<string, Property> = {
     ],
         testimonial: {
       quote: "El equipo de Alliev me brindó distintas alternativas según lo que tenía en mente, lo que me permitió aclarar mis dudas y definir el diseño exterior. El render 3D permitió trabajar sobre ideas concretas.",
-      name: "John Doe",
-      role: "Propietario",
+      name: "AGZ Urbana",
+      role: "Arquitecto",
       image: "/images/n1.png"
     },
     whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",

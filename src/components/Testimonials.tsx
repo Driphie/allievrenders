@@ -10,7 +10,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "NICO REFORMAS",
+      name: "NICOLAS GAITÁN",
       role: "Propietario",
       text: "Yo queria empezar pero no sabia por donde, el equipo me dio una mano increíble, me fueron orientando, me tiraron ideas y me hicieron sentir súper acompañado. Gracias a ellos, pude aclarar lo que buscaba y el resultado final quedó genial.",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"    
