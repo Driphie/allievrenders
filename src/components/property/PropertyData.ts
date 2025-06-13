@@ -74,7 +74,7 @@ export const propertiesData: Record<string, Property> = {
       "/images/n1.png"
     ],
     whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
-    view360Url: "" 
+    view360Url: "https://kuula.co/share/collection/711Ht?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" 
   },
 
 
