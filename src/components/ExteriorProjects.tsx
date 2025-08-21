@@ -24,12 +24,12 @@ const ExteriorProjects = () => {
       
       {/* Content - aligned to the right */}
       <div className="relative h-full w-full flex flex-col justify-center px-6 md:px-12 lg:px-24">
-        <div className="ml-auto max-w-xl md:max-w-2xl lg:max-w-3xl text-right">
+        <div className="ml-auto max-w-xl md:max-w-2xl lg:max-w-3xl">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-4">
             Renderizado Exterior
           </h2>
-          <p className="text-lg md:text-xl text-white/90 mb-8 ml-auto max-w-md">
-            Fotorrealistmo y animaciones 3D que muestran el potencial completo del desarrollo. Ideal para comunicar escala, entorno y arquitectura en preventas, pitch de inversores y difusión comercial.
+          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-md">
+            Con un enfoque detallado en escala, entorno y arquitectura, creamos imágenes y animaciones 3D de alta calidad que presentan el desarrollo con realismo y claridad desde las etapas iniciales, haciendo que tu proyecto resulte más atractivo y fácil de comunicar en preventas, presentaciones para inversores y campañas comerciales.
           </p>
           <Button 
             onClick={scrollToDiscover}

@@ -11,18 +11,18 @@ const ServicesSection = () => {
   const renderingServices = [
     {
       icon: Image,
-      title: "Renderizados De Imágenes Foto Realistas",
-      description: "Nuestro enfoque en el fotorealismo va más allá de la calidad visual: buscamos emocionar. Utilizamos software de última generación, iluminación física realista y una atención meticulosa a los detalles para que cada imagen se sienta tan auténtica como una fotografía. Ideal para destacar el diseño arquitectónico y atraer inversores o compradores.",
+      title: "Fotorrealismo",
+      description: "Utilizamos software de última generación, iluminación física realista y una atención meticulosa a los detalles para que cada imagen se sienta tan auténtica como una fotografía. Ideal para destacar el diseño arquitectónico y atraer inversores o compradores.",
     },
     {
       icon: Video,
-      title: "Video Trailer",
-      description: "Creamos recorridos en video con estética cinematográfica que transmiten la esencia del proyecto a través de movimientos de cámara suaves, música, iluminación y narrativa visual. Estos videos están diseñados para generar impacto emocional y comunicar el estilo de vida que ofrece el desarrollo.",
+      title: "Tour Cinematografico",
+      description: "Videos con estética cinematográfica que transmiten la esencia del proyecto a través de movimientos de cámara suaves, música, iluminación y narrativa visual. Están diseñados para generar impacto emocional y comunicar el estilo de vida que ofrece el desarrollo. ",
     },
     {
       icon: Navigation,
       title: "Tour Virtual",
-      description: "Ofrecemos experiencias visuales que permiten a los usuarios caminar por los espacios como si estuvieran allí. A diferencia de los recorridos 360 tradicionales, nuestros tours virtuales están programados para generar una navegación fluida, inmersiva y guiada, perfecta para mostrar desarrollos inmobiliarios antes de que se construyan",
+      description: "Nuestros tours virtuales están programados para generar una navegación fluida, inmersiva y guiada, perfecta para mostrar desarrollos inmobiliarios antes de que se construyan y generar impacto desde el primer clic.",
     },
   ];
 
@@ -60,9 +60,10 @@ const ServicesSection = () => {
           <h4 className="text-estate-500 uppercase tracking-wider text-sm font-semibold mb-2">Nuestros Servicios</h4>
           <h2 className="text-4xl font-display text-estate-800 mb-4">Mercado Inmobiliario</h2>
           <p className="text-estate-500 mb-8 mx-auto max-w-2xl">
-            En ALLIEV creamos Renders hiperrealistas y soluciones web
-para arquitectos, desarrolladores y constructores
-Desde Buenos Aires, con presencia real en obra.
+            En ALLIEV creamos renders hiperrealistas y soluciones web pensadas para arquitectos, desarrolladores y constructores que necesitan claridad, precisión y respaldo en cada etapa del proyecto. 
+
+Desde Buenos Aires y con presencia activa en obra, aportamos soluciones visuales y digitales que se ajustan a la realidad del desarrollo y suman valor desde el primer plano. 
+
           </p>
         </div>
 
@@ -166,9 +167,6 @@ Desde Buenos Aires, con presencia real en obra.
         </Tabs>
                     <div className="mt-12 text-center">
               <p className="text-estate-600 text-lg max-w-3xl mx-auto leading-relaxed">
-                Cada uno de nuestros servicios puede ser seleccionado de manera individual o en conjunto. 
-                Nos adaptamos a tus necesidades específicas y te proporcionamos un presupuesto personalizado 
-                basado en los servicios que elijas para tu proyecto inmobiliario.
               </p>
             </div>
       </div>

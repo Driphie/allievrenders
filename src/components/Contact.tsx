@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 const Contact = () => {
   const handleWhatsAppClick = () => {
     window.open(
-      "https://wa.me/1123482822?text=Hola,%20queria%20informacion%20mi nombre es %20",
+      "https://wa.me/+5491123482822?text=Hola,%20queria%20informacion%20mi nombre es %20",
       "_blank"
     );
   };
@@ -23,6 +23,7 @@ const Contact = () => {
             <h2 className="text-4xl font-display text-estate-800 mb-6 animate-fadeIn">
               Contactanos
             </h2>
+            <h2 className="text-estate-500 uppercase tracking-wider text-sm font-semibold mb-4">POTENCIA TU PROYECTO </h2>
             <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-estate-400 to-transparent mx-auto mb-8" />
             <p className="text-estate-600 mb-12 text-lg leading-relaxed animate-fadeIn" style={{ animationDelay: '0.2s' }}>
             Contáctanos. En Alliev Archviz, estamos a tu disposición para dar vida a tus ideas a través de visualizaciones 3D de alta calidad. Será un placer colaborar contigo.
@@ -38,7 +39,7 @@ const Contact = () => {
               </Button>
               
               <p className="text-estate-500 text-sm">
-                Disponibles de Lunes a Sabados, 10:00 AM - 5:00 PM
+                Disponibilidad : FULL TIME.
               </p>
             </div>
           </div>

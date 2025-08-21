@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, MessageCircle, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -63,7 +63,17 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Informacion De Contacto</h4>
             <ul className="space-y-3 text-estate-300">
               <li className="transition-all duration-300 hover:translate-x-2">Argentina Buenos Aires</li>
-              <li className="transition-all duration-300 hover:translate-x-2">+54 (011) 23482822</li>
+              <li>
+                <a 
+                  href="https://wa.me/5491123482822?text=Hola,%20quería%20información%20mi%20nombre%20es%20"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-all duration-300 hover:translate-x-2 hover:text-green-400 inline-flex items-center gap-2 group"
+                >
+                  <MessageCircle className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                  +54 911 2348 2822
+                </a>
+              </li>
               <li className="transition-all duration-300 hover:translate-x-2">alliev.archviz@gmail.com</li>
             </ul>
           </div>
@@ -71,8 +81,16 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold mb-4">Seguinos</h4>
             <div className="flex space-x-6 justify-center md:justify-start">
-              <a href="https://www.instagram.com/alliev.archviz/" className="transform hover:scale-110 transition-transform duration-300 hover:text-estate-300">
-                <Instagram className="w-6 h-6" />
+              <a href="https://www.instagram.com/alliev.renders/" className="transform hover:scale-110 transition-transform duration-300 hover:text-estate-300">
+                <Instagram className="transform hover:scale-110 transition-transform duration-300 hover:text-pink-400" />
+              </a>
+              <a 
+                href="https://www.youtube.com/@ALLIEV-ArchVIZ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transform hover:scale-110 transition-transform duration-300 hover:text-red-400"
+              >
+                <Youtube className="w-6 h-6" />
               </a>
             </div>
           </div>

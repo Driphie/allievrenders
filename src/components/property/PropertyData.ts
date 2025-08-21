@@ -34,7 +34,7 @@ export const propertiesData: Record<string, Property> = {
       "/images/properties/property1-3.png"
     ],
     features: [
-      "El objetivo de Luxury House era crear una visualización fotorrealista que mostrara las posibilidades estéticas y funcionales de un diseño residencial de lujo. El proyecto tenía como fin ayudar al cliente a visualizar la casa en su máximo potencial, destacando materiales, acabados y la interacción de la luz con los espacios. ",
+      "El objetivo de Luxury House era crear una visualización fotorrealista que mostrara las posibilidades estéticas y funcionales de un diseño residencial de lujo.",
       "Luxury House fue un proyecto fundamental para nuestro crecimiento como estudio de visualización arquitectónica. A pesar de ser uno de nuestros primeros renders, el resultado final superó las expectativas."
     ],
     videoId: "BI-90RPlYz0?",
@@ -166,7 +166,7 @@ export const propertiesData: Record<string, Property> = {
       "/images/properties/mantra/3.jpg"
     ],
     features: [
-      "El objetivo fue desarrollar imágenes renderizadas que capturen la esencia del concepto de marca y diseño interior del café. Los renders se utilizaron para validar decisiones estéticas.",
+      "El objetivo fue desarrollar imágenes que capturen la esencia del concepto de marca y diseño interior del café. Los renders se utilizaron para validar decisiones estéticas.",
       "Los renders permitieron al cliente visualizar el carácter del proyecto antes de su ejecución, logrando una representación fiel al concepto original. "
     ],
     videoId: "fQkfHB10ydE",
@@ -267,14 +267,14 @@ export const propertiesData: Record<string, Property> = {
     title: "| Concurso DeParc Polo |",
     location: "Hurlingham, Buenos Aires",
     price: "DEPARC",
-    propertyType: "Concurso de diseño para una unidad funcional (UF)",
+    propertyType: "Concurso de diseño para una unidad funcional.",
     year: "2023",
-    description: "Alliev participó y ganó el concurso de diseño para De Parc Polo, ubicado en Hurlingham, fue una oportunidad para desarrollar una de las unidades funcionales (UF) del complejo. Este proyecto fue desarrollado para la desarrolladora DEPARC con el objetivo de presentar una propuesta innovadora y atractiva para el concurso. El diseño presentado se centró en una unidad funcional moderna, funcional y adaptable, con un enfoque en la optimización del espacio y la calidad estética. Se entregaron renders de alta calidad y videos cinematográficos para comunicar de manera efectiva el concepto de diseño",    
+    description: "Alliev participó y ganó el concurso de diseño para De Parc Polo, ubicado en Hurlingham, fue una oportunidad para desarrollar una de las unidades funcionales. del complejo. Este proyecto fue desarrollado para la desarrolladora DEPARC con el objetivo de presentar una propuesta innovadora y atractiva para el concurso. El diseño presentado se centró en una unidad funcional moderna, funcional y adaptable, con un enfoque en la optimización del espacio y la calidad estética. Se entregaron renders de alta calidad y videos cinematográficos para comunicar de manera efectiva el concepto de diseño",    
     images: [
       "/images/properties/deparcpolo/1.png",                  
     ],
     features: [
-      "El objetivo principal fue diseñar una unidad funcional (UF) que se destacara por su propuesta estética y funcional dentro del complejo Polo. El trabajo incluyó la representación 3D de la distribución de espacios, la integración de materiales y acabados, así como la visualización realista de la atmósfera que ofrecería la unidad a los futuros habitantes.",
+      "El objetivo principal fue diseñar una unidad funcional. que se destacara por su propuesta estética y funcional dentro del complejo Polo. El trabajo incluyó la representación 3D de la distribución de espacios, la integración de materiales y acabados, así como la visualización realista de la atmósfera que ofrecería la unidad a los futuros habitantes.",
       "La entrega de renders y videos fue fundamental para presentar la propuesta de diseño de la unidad funcional en el concurso, permitiendo a los evaluadores y potenciales inversores visualizar la propuesta con claridad. La calidad visual y la atención al detalle en la representación ayudaron a que el proyecto se destacara dentro del concurso. "
     ],
     videoId: "GeOO9GmTrd8",

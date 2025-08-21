@@ -74,7 +74,7 @@ const OurDifferential = () => {
 
         {/* Bottom Statement */}
         <div className="mt-16 text-center">
-          <p className="text-xl text-estate-600 font-medium max-w-3xl mx-auto leading-relaxed">
+          <p className="text-estate-500 uppercase tracking-wider text-sm font-semibold">
             No solo hacemos renders. Nos reunimos con vos, vamos a la obra y entendemos el proyecto desde adentro.
           </p>
         </div>

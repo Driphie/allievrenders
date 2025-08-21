@@ -7,6 +7,8 @@ import PropertyTestimonial from "@/components/property/PropertyTestimonial";
 import PropertyContact from "@/components/property/PropertyContact";
 import BackButton from "@/components/property/BackButton";
 import Navbar from "@/components/Navbar";
+import ProjectRedirects from "@/components/ProjectRedirects";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { propertiesData } from "@/components/property/PropertyData";
 
 const PropertyDetails = () => {
@@ -61,7 +63,10 @@ const PropertyDetails = () => {
         )}
         
         <PropertyContact whatsappLink={propertyData.whatsappLink} />
+        
+        <ProjectRedirects currentProjectId={id as string} />
       </div>
+      <WhatsAppFloat />
     </div>
   );
 };

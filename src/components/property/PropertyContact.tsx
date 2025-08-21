@@ -17,7 +17,6 @@ const PropertyContact = ({ whatsappLink = "https://wa.me/1123482822?text=Hola,%2
           ¿Tenés un proyecto en marcha o por presentar?
         </h3>
         <p className="text-estate-100 mb-8 md:text-lg max-w-2xl mx-auto">
-          Coordiná una reunión y mostranos tu idea.
         </p>
         <Button 
           onClick={handleContactClick}

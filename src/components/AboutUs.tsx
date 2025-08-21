@@ -14,24 +14,19 @@ const AboutUs = () => {
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-estate-800 rounded-lg -z-10"></div>
           </div>
 
           {/* Content Section */}
           <div className="space-y-8">
             <div className="space-y-4">
               <h4 id='acerca' className="text-estate-500 uppercase tracking-wider text-sm font-semibold">Acerca De Alliev Archviz</h4>
-              <h2 className="text-4xl font-display text-estate-800">Creating Exceptional Living Spaces</h2>
+              <h2 className="text-4xl font-display text-estate-800">Cuando el mundo se detuvo, nosotros comenzamos.</h2>
             </div>
             
             <p className="text-estate-600 leading-relaxed">
-            En Alliev nos dedicamos a dar vida a tus proyectos a través de impresionantes renderizados 3D. 
-            Somos una familia que comenzó en el año 2020 con la visión de crear imágenes realistas y detalladas que transforman 
-            ideas en experiencias visuales. Desde nuestros inicios, nos hemos enfocado en brindar un servicio de alta calidad, 
-            utilizando tecnología de última generación para garantizar resultados excepcionales. Nuestro equipo está comprometido 
-            con la excelencia, trabajando con pasión y dedicación para superar las expectativas de nuestros clientes. En Alliev 
-            cada proyecto es una oportunidad para mostrar nuestra creatividad y ofrecer soluciones visuales únicas que capturan la esencia de lo que imaginas.
+            En 2020, mientras todo parecía estar en pausa, decidimos dar el primer paso: convertir nuestra pasión por el diseño y la visualización en una forma de contar historias a través de imágenes. Así nació Alliev, un estudio familiar con una misión clara: transformar ideas en experiencias inmersivas, detalladas y memorables. Desde entonces, trabajamos con tecnología de vanguardia y una atención obsesiva por el detalle, pero lo que realmente nos define es la creatividad y el compromiso con cada cliente. 
             </p>
+            <h2 className="text-estate-500 uppercase tracking-wider text-sm font-semibold">Somos Alliev. Damos forma a lo que imaginás.</h2>
 
             <div className="grid grid-cols-2 gap-8 pt-8">
               <div className="space-y-2">

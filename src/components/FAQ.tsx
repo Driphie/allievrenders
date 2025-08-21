@@ -25,30 +25,26 @@ const FAQ = () => {
     },
     {
       question: "¿Qué tipo de renders ofrecen?",
-      answer: "Ofrecemos: ● Renders fotorrealistas (interiores y exteriores) ● Animaciones 3D / video recorrido  ● Videos cinemáticos ● Imágenes 360° interactivas."
+      answer: "Ofrecemos: ● Renders fotorrealistas (interiores y exteriores) ● Animaciones 3D  (Tour Cinematografico y Tour Virtual) ● Imágenes 360° interactivas."
     },
     {
       question: "¿Puedo hacer cambios luego de ver el render?",
-      answer: "Sí, incluimos una ronda de ajustes sin costo adicional. Si necesitás cambios mayores o nuevas versiones, lo presupuestamos aparte y siempre te avisamos antes."
+      answer: "El presupuesto incluye un período de modificaciones dentro de los alcances definidos.Cualquier cambio sustancial o fuera del alcance inicial será considerado adicional y tendrá un costo extra."
     }
   ];
 
   const additionalArchFaqs = [
     {
       question: "¿Trabajan solo en Buenos Aires?",
-      answer: "Atendemos proyectos de todo el país, pero tenemos presencia física en Ciudad Autónoma de Buenos Aires, lo que nos permite asistir a obra, reunirnos presencialmente y entender mejor el contexto del proyecto."
+      answer: "Atendemos clientes en toda Argentina. Desde nuestra base en CABA, ofrecemos asistencia en obra y reuniones presenciales, lo que nos permite comprender mejor el contexto de cada proyecto y garantizar un acompañamiento más cercano y eficiente."
     },
     {
       question: "¿Cuánto cuesta un render?",
       answer: "El costo depende del tipo de vista, nivel de detalle y cantidad de imágenes. Para darte un presupuesto exacto, necesitamos ver el proyecto y saber qué necesitás comunicar."
     },
     {
-      question: "¿Qué formatos de entrega están disponibles?",
-      answer: "Ofrecemos una amplia gama de formatos, incluyendo imágenes en alta resolución, videos 4K, tours virtuales interactivos y contenido optimizado para redes sociales y marketing digital."
-    },
-    {
       question: "¿Cómo accedo a mi proyecto?",
-      answer: "Compartimos una carpeta de Drive con el cliente para visualización y descarga. También podemos subir el proyecto a Youtube para uso exclusivo del cliente."
+      answer: "El material se entrega mediante una carpeta de Drive, permitiendo al cliente visualizarlo y descargarlo de forma organizada y segura."
     },
     {
       question: "¿Cómo protegen la propiedad intelectual de mis proyectos?",

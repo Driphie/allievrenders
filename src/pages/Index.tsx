@@ -9,6 +9,7 @@ import LogoCarousel from "@/components/LogoCarousel";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -71,6 +72,8 @@ const Index = () => {
       </div>
       
       <Footer />
+      
+      <WhatsAppFloat />
     </div>
   );
 };

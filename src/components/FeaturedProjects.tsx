@@ -29,7 +29,7 @@ const FeaturedProjects = () => {
             Renderizado Interior
           </h2>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-md">
-            Fotorrealismo y animaciones 3D de alta calidad, con enfoque en materiales, iluminación y diseño espacial. Creamos imágenes que transmiten realismo y estilo, optimizadas para ventas, marketing y toma de decisiones en etapa de proyecto.
+            Con un enfoque detallado en materiales, iluminación y diseño espacial, creamos imágenes y animaciones 3D de alta calidad que permiten a tus clientes visualizar el espacio como si ya estuviera construido, haciendo que tu proyecto sea más impactante y persuasivo.
           </p>
           <Button 
             onClick={scrollToDiscover}
