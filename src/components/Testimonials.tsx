@@ -62,7 +62,7 @@ const Testimonials = () => {
                         <div 
                           className={`font-semibold text-estate-800 ${
                             testimonial.instagramUrl 
-                              ? 'cursor-pointer hover:text-estate-600 transition-colors duration-300 hover:underline' 
+                              ? 'cursor-pointer hover:text-estate-600 transition-colors duration-300 hover:underline hover:text-pink-400' 
                               : ''
                           }`}
                           onClick={() => handleNameClick(testimonial.instagramUrl)}
