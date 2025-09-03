@@ -66,7 +66,7 @@ export const propertiesData: Record<string, Property> = {
       "El objetivo principal de Luminis fue crear una propuesta arquitectónica que fusionara el confort de una casa con la funcionalidad de una oficina en el mismo espacio. La casa cuenta con áreas abiertas y luminosas, mientras que la oficina está integrada de manera estratégica para garantizar privacidad y productividad, sin perder la armonía del diseño general",
       "Luminis se presenta como una propuesta conceptual que explora el futuro de las viviendas modernas y las oficinas domésticas. Gracias al uso de tecnologías avanzadas de visualización, el proyecto demuestra el potencial de los nuevos software y técnicas para crear representaciones de alto nivel. Este diseño, aunque no real, ofrece una visión futurista de lo que podrían ser las casas y oficinas del mañana."
     ],
-    videoId: "tu-id-de-video-2",
+    videoId: "A_0Y2Xt4qLo",
     trailerId: "xS0xsjwEkSw",
     statusImages: [
       "/images/n1.png",
