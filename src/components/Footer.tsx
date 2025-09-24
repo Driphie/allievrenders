@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex justify-center mb-12 transform hover:scale-105 transition-transform duration-300">
           <div className="w-48 h-26 bg-estate-0 flex items-center justify-center rounded-lg opacity-0 animate-fadeIn">
             {/* Replace with your actual logo */}
-            <span className="font-display text-4xl"><img src="/images/hero/logo1.png" alt="" /></span>
+            <span className="font-display text-4xl"><img src="/images/hero/logo3.png" alt="" /></span>
           </div>
         </div>
 
