@@ -32,7 +32,7 @@ const LogoCarousel = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-6xl">
         <h2 className="text-4xl font-display text-estate-800 mb-12 text-center">
-          Confiaron En Nosotros
+          CONFIARON EN NOSOTROS
         </h2>
         <Carousel
           opts={{

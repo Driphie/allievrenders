@@ -6,7 +6,7 @@ const OurDifferential = () => {
   const differentialPoints = [
     {
       icon: Users,
-      title: "Asistencia a obra y reuniones presenciales"
+      title: "Asistencia a obra y reuniones presenciales en CABA"
     },
     {
       icon: MessageCircle,
@@ -14,7 +14,7 @@ const OurDifferential = () => {
     },
     {
       icon: Zap,
-      title: "Experiencias inmersivas : renders que conectan"
+      title: "Experiencias inmersivas: renders que conectan"
     }
   ];
 

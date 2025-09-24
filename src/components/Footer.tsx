@@ -19,7 +19,7 @@ const Footer = () => {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </h3>
             <p className="text-estate-300">
-            SOLUCIONES INTEGRALES.
+            SOLUCIONES INTEGRALES
             </p>
           </div>
           
@@ -52,7 +52,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#contacto" className="hover:text-white transition-colors duration-300 relative group">
-                  Contactanos
+                  Contáctanos 
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
                 </a>
               </li>
@@ -60,9 +60,9 @@ const Footer = () => {
           </div>
           
           <div className="space-y-4">
-            <h4 className="font-semibold mb-4">Informacion De Contacto</h4>
+            <h4 className="font-semibold mb-4">Información de contácto</h4>
             <ul className="space-y-3 text-estate-300">
-              <li className="transition-all duration-300 hover:translate-x-2">Argentina Buenos Aires</li>
+              <li className="transition-all duration-300 hover:translate-x-2">Buenos Aires, Argentina</li>
               <li>
                 <a 
                   href="https://wa.me/5491123482822?text=Hola,%20quería%20información%20mi%20nombre%20es%20"
@@ -97,7 +97,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-estate-700 text-center text-estate-300 opacity-0 animate-fadeIn" style={{ animationDelay: '400ms' }}>
-          <p>&copy; {new Date().getFullYear()} ALLIEV ARCHVIZ. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ALLIEV RENDERS All rights reserved.</p>
         </div>
       </div>
     </footer>

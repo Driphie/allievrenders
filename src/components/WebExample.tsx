@@ -21,9 +21,6 @@ const WebExample = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-4">
             Ejemplo De Web
           </h2>
-          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-md">
-            Diseño y desarrollo de sitios web orientados al real estate. Integración de renders, fichas técnicas, ubicación, formularios y contenido visual optimizado para captar leads y presentar proyectos con alto impacto profesional.
-          </p>
           <Button 
             onClick={() => window.open('https://auravista.netlify.app/', '_blank')}
             className="group bg-white text-estate-800 hover:bg-estate-100 transition-all duration-300 ease-in-out flex items-center gap-2"

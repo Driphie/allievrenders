@@ -21,12 +21,12 @@ const Contact = () => {
         <div className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl p-12 border border-estate-200/50">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-4xl font-display text-estate-800 mb-6 animate-fadeIn">
-              Contactanos
+              CONTACTANOS
             </h2>
             <h2 className="text-estate-500 uppercase tracking-wider text-sm font-semibold mb-4">POTENCIA TU PROYECTO </h2>
             <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-estate-400 to-transparent mx-auto mb-8" />
             <p className="text-estate-600 mb-12 text-lg leading-relaxed animate-fadeIn" style={{ animationDelay: '0.2s' }}>
-            Contáctanos. En Alliev Archviz, estamos a tu disposición para dar vida a tus ideas a través de visualizaciones 3D de alta calidad. Será un placer colaborar contigo.
+            Contáctanos. En Alliev Renders estamos a disposición para dar vida a tus proyectos a través de visualizaciones 3D de alta calidad. Será un placer colaborar contigo.
             </p>
             
             <div className="flex flex-col items-center space-y-6 animate-fadeIn" style={{ animationDelay: '0.4s' }}>
@@ -35,11 +35,11 @@ const Contact = () => {
                 className="group bg-green-600 hover:bg-green-900 text-white px-10 py-6 rounded-xl text-lg flex items-center gap-3 transform transition-all duration-500 hover:shadow-lg hover:scale-[1.02]"
               >
                 <MessageSquare className="w-6 h-6 transition-transform duration-500 group-hover:rotate-12" />
-                <span className="font-medium">Inciar Conversacion</span>
+                <span className="font-medium">Iniciar Conversacion</span>
               </Button>
               
               <p className="text-estate-500 text-sm">
-                Disponibilidad : FULL TIME.
+                Disponibilidad: FULL TIME.
               </p>
             </div>
           </div>

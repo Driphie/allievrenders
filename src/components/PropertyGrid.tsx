@@ -9,14 +9,6 @@ const PropertyGrid = () => {
 
   const allProperties = [
     {
-      id: "1",
-      image: "/images/properties/property1.png",
-      title: "| LUXURY PENTHOUSE | 2022",
-      location: "Argentina, Buenos Aires",
-      price: "ALLIEV | DESING",
-      category: "autor"
-    },
-    {
       id: "2",
       image: "/images/properties/property9.png",
       title: "| LUMINIS CASA & OFICINA | 2025",
@@ -26,7 +18,7 @@ const PropertyGrid = () => {
     },    
     {
       id: "3",
-      image: "/images/properties/property3.jpg",
+      image: "/images/properties/irlanda/8.png",
       title: "| IRLANDA GREEN | 2024",
       location: "Plaza Irlanda, Caballito, Buenos Aires",
       price: "FTF DESARROLLOS",
@@ -39,7 +31,15 @@ const PropertyGrid = () => {
       location: "Av. Alberdi, barrio de Flores, CABA",
       price: "AGZ URBANA | REMAX FLOW",
       category: "desarrollos"
-    },    
+    },
+    {
+      id: "9",
+      image: "/images/properties/property11.png",
+      title: "| PENTHOUSE | 2022",
+      location: "Argentina, Buenos Aires",
+      price: "ALLIEV | DESING",
+      category: "concurso"
+    },     
     {
       id: "5",
       image: "/images/properties/property4.jpg",
@@ -63,15 +63,7 @@ const PropertyGrid = () => {
       location: "Zona Centro, Buenos Aires",
       price: "-",
       category: "reformas"
-    },         
-    {
-      id: "8",
-      image: "/images/properties/property6.png",
-      title: "| CONCURSO DEPARC POLO | 2022",
-      location: "Hurlingham, Buenos Aires",
-      price: "DEPARC",
-      category: "concurso"
-    },   
+    },  
   ];
 
     const filteredProperties = activeFilter === "all" 

@@ -16,7 +16,7 @@ const FeaturedProjects = () => {
       {/* Background image - the actual image will be provided by you locally */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/images/banners/B1.png')` }} // Placeholder image until you provide local image
+        style={{ backgroundImage: `url('/images/properties/penthouse/7.png')` }} // Placeholder image until you provide local image
       />
       
       {/* Overlay for better text readability */}
@@ -26,11 +26,8 @@ const FeaturedProjects = () => {
       <div className="relative h-full w-full flex flex-col justify-center px-6 md:px-12 lg:px-24">
         <div className="max-w-xl md:max-w-2xl lg:max-w-3xl">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-display text-white mb-4">
-            Renderizado Interior
+            Render Interior
           </h2>
-          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-md">
-            Con un enfoque detallado en materiales, iluminación y diseño espacial, creamos imágenes y animaciones 3D de alta calidad que permiten a tus clientes visualizar el espacio como si ya estuviera construido, haciendo que tu proyecto sea más impactante y persuasivo.
-          </p>
           <Button 
             onClick={scrollToDiscover}
             className="group bg-white text-estate-800 hover:bg-estate-100 transition-all duration-300 ease-in-out flex items-center gap-2"

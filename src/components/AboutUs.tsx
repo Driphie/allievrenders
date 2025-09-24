@@ -19,8 +19,8 @@ const AboutUs = () => {
           {/* Content Section */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h4 id='acerca' className="text-estate-500 uppercase tracking-wider text-sm font-semibold">Acerca De Alliev Archviz</h4>
-              <h2 className="text-4xl font-display text-estate-800">Cuando el mundo se detuvo, nosotros comenzamos.</h2>
+              <h4 id='acerca' className="text-estate-500 uppercase tracking-wider text-sm font-semibold">Acerca De Alliev Renders</h4>
+              <h2 className="text-4xl font-display text-estate-800">"Cuando el mundo se detuvo, nosotros comenzamos"</h2>
             </div>
             
             <p className="text-estate-600 leading-relaxed">

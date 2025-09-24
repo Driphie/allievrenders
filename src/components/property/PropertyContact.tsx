@@ -14,7 +14,7 @@ const PropertyContact = ({ whatsappLink = "https://wa.me/1123482822?text=Hola,%2
     <div className="max-w-4xl mx-auto px-4 py-12 mb-12 opacity-0 animate-fadeIn" style={{ animationDelay: '0.4s' }}>
       <div className="bg-estate-800 text-white rounded-xl p-8 md:p-12 text-center">
         <h3 className="text-2xl md:text-3xl font-display mb-4">
-          ¿Tenés un proyecto en marcha o por presentar?
+          ¿Listo para transformar planos en experiencias inmversivas?
         </h3>
         <p className="text-estate-100 mb-8 md:text-lg max-w-2xl mx-auto">
         </p>
@@ -22,7 +22,7 @@ const PropertyContact = ({ whatsappLink = "https://wa.me/1123482822?text=Hola,%2
           onClick={handleContactClick}
           className="bg-white text-estate-800 hover:bg-green-500 px-8 py-6 h-auto text-lg font-semibold"
         >
-          Solicitar presupuesto
+          Solicita tu presupuesto
         </Button>
       </div>
     </div>

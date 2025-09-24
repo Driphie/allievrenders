@@ -9,7 +9,7 @@ const Hero = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover scale-105"
       >
-        <source src="/images/videos/HERO3.mp4" type="video/mp4" />
+        <source src="/images/videos/HERO4.mp4" type="video/mp4" />
         <source src="/videos/hero-video.webm" type="video/webm" />
         Tu navegador no soporta el elemento video.
       </video>
@@ -23,7 +23,7 @@ opacity-0 animate-fadeIn drop-shadow-2xl">
           ALLIEV | RENDER
         </h1>
         <p className="text-xl text-white/90 mb-12 max-w-2xl opacity-0 animate-fadeIn drop-shadow-lg ml-auto" style={{ animationDelay: '200ms' }}>
-          SOLUCIONES INTEGRALES.
+          SOLUCIONES INTEGRALES
         </p>
       </div>
     </div>

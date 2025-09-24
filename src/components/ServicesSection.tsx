@@ -57,8 +57,10 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4 max-w-6xl">
                {/* Unified header section */}
         <div className="text-center mb-12 opacity-0 animate-fadeIn">
-          <h4 className="text-estate-500 uppercase tracking-wider text-sm font-semibold mb-2">Nuestros Servicios</h4>
-          <h2 className="text-4xl font-display text-estate-800 mb-4">Mercado Inmobiliario</h2>
+          <h2 className="text-4xl font-display text-estate-800 mb-4">Nuestros Servicios</h2>
+          <h2 className="text-estate-500 uppercase tracking-wider text-sm font-semibold mb-4">
+            Visualizacion de proyectos inmobiliarios
+          </h2>
           <p className="text-estate-500 mb-8 mx-auto max-w-2xl">
             En ALLIEV creamos renders hiperrealistas y soluciones web pensadas para arquitectos, desarrolladores y constructores que necesitan claridad, precisión y respaldo en cada etapa del proyecto. 
 

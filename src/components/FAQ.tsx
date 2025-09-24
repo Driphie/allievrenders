@@ -72,7 +72,7 @@ const FAQ = () => {
     },
     {
       question: "¿Pueden cargar los renders que ustedes mismos hacen?",
-      answer: "¡Claro! Si trabajás con nosotros en visualización y web, optimizamos los renders y animaciones para que la web se vea increíble sin afectar su velocidad."
+      answer: "¡Claro! Si trabajás con nosotros en visualización y web, optimizamos los renders y animaciones para que la web se vea increíble."
     }
   ];
 
