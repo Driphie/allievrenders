@@ -9,7 +9,7 @@ const Hero = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover scale-105"
       >
-        <source src="/images/videos/HERO5.mp4" type="video/mp4" />
+        <source src="/images/videos/HERO6.mp4" type="video/mp4" />
         <source src="/videos/hero-video.webm" type="video/webm" />
         Tu navegador no soporta el elemento video.
       </video>
