@@ -7,6 +7,7 @@ const Hero = () => {
         muted
         loop
         playsInline
+        preload="metadata"
         className="absolute inset-0 w-full h-full object-cover scale-105"
       >
         <source src="/images/videos/HERO6.mp4" type="video/mp4" />
