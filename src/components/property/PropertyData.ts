@@ -245,5 +245,37 @@ export const propertiesData: Record<string, Property> = {
     ],
     whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
     view360Url: ""
+  },
+  
+
+  "10": {
+    title: "| HOME DECO |",
+    location: "Argentina, Buenos Aires",
+    price: "Alliev Desing",
+    propertyType: "Showroom comercial",
+    year: "2025",
+    description: "",    
+    images: [
+      "/images/properties/homedeco/1.png",
+      "/images/properties/homedeco/2.png",
+      "/images/properties/homedeco/3.png",
+      "/images/properties/homedeco/4.png",
+      "/images/properties/homedeco/5.png"
+    ],
+    features: [
+      "",
+      ""
+    ],
+    videoId: "",
+    trailerId: "",
+    statusImages: [
+      "/images/n1.png",
+      "/images/n1.png",
+      "/images/n1.png"
+    ],
+    whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
+    view360Url: ""
   }
+
+
 };

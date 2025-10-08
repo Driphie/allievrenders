@@ -15,8 +15,8 @@ const PropertyDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [id]);
 
   const propertyData = propertiesData[id as keyof typeof propertiesData];
 

@@ -39,7 +39,7 @@ const Index = () => {
       </div>
 
       <section className="py-32 opacity-0 animate-fadeIn" id="discover">
-        <div className="container mx-auto px-4 max-w-6xl text-center">
+        <div className="container mx-auto px-4 max-w-1xl text-center">
           <h4 id="proyectos" className="text-estate-500 uppercase tracking-wider text-sm font-semibold">Transformando ideas en realidad</h4>
           <h2 className="text-5xl font-display text-estate-800 mb-3">Nuestros Proyectos</h2 >
           <div className="w-24 h-1 bg-estate-500 mx-auto my-8 rounded-full"></div>
