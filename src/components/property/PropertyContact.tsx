@@ -5,7 +5,7 @@ interface PropertyContactProps {
   whatsappLink?: string;
 }
 
-const PropertyContact = ({ whatsappLink = "https://wa.me/1123482822?text=Hola,%20me%20interesa%20solicitar%20un%20presupuesto" }: PropertyContactProps) => {
+const PropertyContact = ({ whatsappLink = "https://wa.me/5491123482822?text=Hola,%20quiero%20recibir%20información%20sobre%20sus%20servicios%20" }: PropertyContactProps) => {
   const handleContactClick = () => {
     window.open(whatsappLink, "_blank");
   };

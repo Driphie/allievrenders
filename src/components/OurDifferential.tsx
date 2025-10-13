@@ -19,9 +19,9 @@ const OurDifferential = () => {
   ];
 
   return (
-    <section className="py-32 bg-white">
+    <section className="py-12 bg-white">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Content Section - Left Side */}
           <div className="space-y-8">
             <div className="space-y-4">
@@ -73,7 +73,7 @@ const OurDifferential = () => {
         </div>
 
         {/* Bottom Statement */}
-        <div className="mt-16 text-center">
+         <div className="mt-8 text-center">
           <p className="text-estate-500 uppercase tracking-wider text-sm font-semibold">
             No solo hacemos renders. Nos reunimos con vos, vamos a la obra y entendemos el proyecto desde adentro.
           </p>

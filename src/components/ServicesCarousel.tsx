@@ -51,7 +51,7 @@ const ServicesCarousel = ({ images }: ServicesCarouselProps) => {
   };
 
   return (
-    <div className="relative w-full h-[500px] rounded-xl overflow-hidden group shadow-lg bg-gray-50">
+    <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-lg sm:rounded-xl overflow-hidden group shadow-lg bg-gray-50">
       <div 
         className="flex transition-transform duration-10 ease-in-out h-full"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}

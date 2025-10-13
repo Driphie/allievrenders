@@ -224,14 +224,14 @@ export const propertiesData: Record<string, Property> = {
     location: "Argentina, Buenos Aire",
     price: "ALLIEV | DESING",
     propertyType: "Edificio Penthouse",
-    year: "2023",
+    year: "2022",
     description: "",    
     images: [
-      "/images/properties/penthouse/3.png",
-      "/images/properties/penthouse/2.png",
-      "/images/properties/penthouse/4.png",
+      "/images/properties/penthouse/3.jpg",
+      "/images/properties/penthouse/2.jpg",
+      "/images/properties/penthouse/4.jpg",
       "/images/properties/penthouse/5.png",
-      "/images/properties/penthouse/6.png",
+      "/images/properties/penthouse/6.jpg",
       "/images/properties/penthouse/7.png"                    
     ],
     features: [

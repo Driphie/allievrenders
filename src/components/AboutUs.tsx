@@ -2,9 +2,9 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <section className="py-32 bg-estate-100">
+    <section className="py-12 bg-estate-100">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Image Section */}
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-lg">

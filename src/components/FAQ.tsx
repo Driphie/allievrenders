@@ -87,15 +87,16 @@ const FAQ = () => {
   const displayedWebFaqs = showAllWeb ? [...initialWebFaqs, ...additionalWebFaqs] : initialWebFaqs;
 
   return (
-    <section className="py-20 bg-gradient-to-br from-white to-zinc-100" id="faq">
+    <section className="py-8 md:py-12 bg-gradient-to-br from-estate-50 to-estate-100" id="faq">
       <div className="container mx-auto px-4 max-w-5xl">
-        <div className="text-center mb-16 opacity-0 animate-fadeIn">
+        <div className="text-center mb-8 md:mb-10 opacity-0 animate-fadeIn">
           <h4 className="text-estate-500 uppercase tracking-wider text-sm font-semibold">
             Resolvemos tus dudas
           </h4>
           <h2 className="text-5xl font-display text-estate-800 mt-2 mb-6">
             Preguntas Frecuentes
           </h2>
+          <div className="w-24 h-1 bg-estate-500 mx-auto mt-4 md:mt-6 rounded-full"></div>
           <p className="text-lg text-estate-600 max-w-2xl mx-auto">
             Encuentra respuestas a las preguntas más comunes sobre nuestros servicios
           </p>

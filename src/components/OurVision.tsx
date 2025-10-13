@@ -15,7 +15,7 @@ const OurVision = () => {
       <FeaturedProjects />
       
       {/* Elegant divider */}
-      <div className="py-2 bg-gradient-to-br from-white to-zinc-100">
+      <div className="py-4">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
             <div className="h-px bg-gradient-to-r from-transparent via-estate-400 to-transparent w-full max-w-md"></div>
@@ -29,7 +29,7 @@ const OurVision = () => {
       <ExteriorProjects />
       
       {/* Elegant divider */}
-      <div className="py-2 bg-gradient-to-br from-white to-zinc-100">
+      <div className="py-4">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center">
             <div className="h-px bg-gradient-to-r from-transparent via-estate-400 to-transparent w-full max-w-md"></div>

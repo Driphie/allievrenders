@@ -15,7 +15,7 @@ const ServicesSection = () => {
     "/images/properties/penthouse/7.png",
     "/images/properties/luminis/2.png", 
     "/images/properties/luminis/4.png",
-    "/images/properties/penthouse/2.png"
+    "/images/properties/penthouse/2.jpg"
   ];
 
   const servicesData = [
@@ -24,7 +24,7 @@ const ServicesSection = () => {
       icon: Image,
       title: "Fotorealismo",
      subtitle: "Visualización arquitectónica de alta calidad",
-      description: "Creamos imágenes fotorrealistas que muestran cada detalle de tu propiedad con precisión absoluta.",
+      description: "",
       content: <ServicesCarousel images={photorealismImages} />,
       color: "bg-gradient-to-br from-slate-50 to-gray-100"
     },
@@ -33,7 +33,7 @@ const ServicesSection = () => {
       icon: Video,
       title: "Tour Cinematográfico",
       subtitle: "Experiencia inmersiva en movimiento",
-      description: "Videos cinematográficos que guían a tus clientes por cada espacio.",
+      description: "",
       content: <YouTubeVideo videoUrl="https://www.youtube.com/watch?v=xS0xsjwEkSw" title="Tour Cinematográfico" />,
       color: "bg-gradient-to-br from-stone-50 to-neutral-100"
     },
@@ -42,7 +42,7 @@ const ServicesSection = () => {
       icon: Navigation, 
       title: "Tour Virtual",
       subtitle: "Navegación interactiva POV°",
-      description: "Nuestros tours virtuales están programados para generar una navegación fluida, inmersiva y guiada, perfecta para mostrar desarrollos inmobiliarios antes de que se construyan y generar impacto desde el primer clic.",
+      description: "",
       content: <YouTubeVideo videoUrl="https://www.youtube.com/watch?v=A_0Y2Xt4qLo" title="Tour Virtual 360°" />,
       color: "bg-gradient-to-br from-zinc-50 to-stone-100"
     },
@@ -51,7 +51,7 @@ const ServicesSection = () => {
       icon: Image,
       title: "Tour 360°", 
       subtitle: "Navegación interactiva 360°",
-      description: "Permite a tus clientes explorar la propiedad de forma autónoma con tecnología de realidad virtual.",
+      description: "",
       content: <CustomIframe iframeUrl="https://kuula.co/share/collection/711Ht?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" title="Contenido Visual" />,
       color: "bg-gradient-to-br from-neutral-50 to-gray-100"
     }
@@ -104,8 +104,8 @@ const ServicesSection = () => {
   return (
     <section className="bg-background">
       {/* Header */}
-      <div id="servicios" className="container mx-auto px-4 max-w-6xl py-20">
-        <div className="text-center mb-16">
+      <div className="container mx-auto px-4 max-w-6xl py-12" id="servicios">
+        <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 bg-primary/5 px-6 py-2 rounded-full border border-primary/10 mb-6">
               <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Nuestros Servicios</span>
@@ -113,7 +113,7 @@ const ServicesSection = () => {
             <h3 className="text-estate-500 uppercase tracking-wider text-xl font-semibold mb-4">
               Visualizacion de proyectos inmobiliarios
             </h3>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-muted-foreground mb-6 mx-auto max-w-2xl">
              En ALLIEV creamos renders hiperrealistas y soluciones web pensadas para arquitectos, desarrolladores y constructores que necesitan claridad, precisión y respaldo en cada etapa del proyecto. Desde Buenos Aires y con presencia activa en obra, aportamos soluciones visuales y digitales que se ajustan a la realidad del desarrollo y suman valor desde el primer plano.
             </p>
         </div>
@@ -132,36 +132,36 @@ const ServicesSection = () => {
               className={`w-full h-screen ${service.color} flex items-center justify-center`}
               style={{ scrollSnapAlign: 'start' }}
             >
-              <div className="container mx-auto px-4 max-w-7xl">
+              <div className="container mx-auto px-2 sm:px-4 max-w-7xl">
                 <div className="relative">
                   {/* Background Pattern */}
                   <div className="absolute inset-0 bg-white/40 backdrop-blur-sm"></div>
                   
                   {/* Card Content */}
-                  <div className="relative bg-white/90 backdrop-blur-md rounded-2xl shadow-2xl border border-white/20 overflow-hidden">
+                  <div className="relative bg-white/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-2xl border border-white/20 overflow-hidden mx-2 sm:mx-0">
                     {/* Header Section */}
-                    <div className="px-10 py-8 border-b border-gray-200/50">
-                      <div className="flex items-start justify-between">
-                        <div className="space-y-2">
-                          <h3 className="text-3xl font-bold text-gray-900 tracking-tight">
+                     <div className="px-4 py-4 sm:px-6 sm:py-6 lg:px-10 lg:py-8 border-b border-gray-200/50">
+                      <div className="flex items-start justify-between gap-3">
+                        <div className="space-y-1 sm:space-y-2 flex-1 min-w-0">
+                          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 tracking-tight">
                             {service.title}
                           </h3>
-                          <p className="text-lg text-primary font-medium">
+                          <p className="text-sm sm:text-base lg:text-lg text-primary font-medium">
                             {service.subtitle}
                           </p>
-                          <p className="text-muted-foreground max-w-2xl leading-relaxed">
+                          <p className="text-sm sm:text-base text-muted-foreground max-w-2xl leading-relaxed">
                             {service.description}
                           </p>
                         </div>
-                        <div className="flex-shrink-0 w-20 h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center">
-                          <service.icon className="w-10 h-10 text-primary" />
+                         <div className="flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-primary/10 to-primary/5 rounded-xl sm:rounded-2xl flex items-center justify-center">
+                          <service.icon className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-primary" />
                         </div>
                       </div>
                     </div>
 
                     {/* Content Section */}
-                    <div className="pb-10 p-2">
-                      <div className="bg-gray-50/50 rounded-xl mb-10">
+                     <div className="p-3 sm:p-6 lg:p-10">
+                      <div className="bg-gray-50/50 rounded-lg sm:rounded-xl p-2 sm:p-4 lg:p-6">
                         {service.content}
                       </div>
                     </div>
@@ -189,14 +189,14 @@ const ServicesSection = () => {
       </div>
 
       {/* Marketing Digital Section */}
-      <div className="bg-gradient-to-br from-slate-50 via-white to-gray-50 py-24 border-t border-gray-200/30">
+      <div className="bg-gradient-to-br from-slate-50 via-white to-gray-50 py-12 border-t border-gray-200/30">
         <div className="container mx-auto px-4 max-w-7xl">
-          <div className="text-center mb-20">
-            <div className="inline-flex items-center gap-2 bg-primary/5 px-6 py-2 rounded-full border border-primary/10 mb-6">
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-2 bg-primary/5 px-6 py-2 rounded-full border border-primary/10 mb-4">
               <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Desarollo Web</span>
             </div>
-            <h3 className="text-estate-500 uppercase tracking-wider text-xl font-semibold mb-4">
+            <h3 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
               Construimos plataformas digitales para tu negocio
             </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
