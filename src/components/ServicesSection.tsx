@@ -52,7 +52,7 @@ const ServicesSection = () => {
       title: "Tour 360°", 
       subtitle: "Navegación interactiva 360°",
       description: "",
-      content: <CustomIframe iframeUrl="https://kuula.co/share/collection/711Ht?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" title="Contenido Visual" />,
+      content: <CustomIframe iframeUrl="https://tour.panoee.net/69443add5118c75f39115f7f" title="Contenido Visual" />,
       color: "bg-gradient-to-br from-neutral-50 to-gray-100"
     }
   ];
