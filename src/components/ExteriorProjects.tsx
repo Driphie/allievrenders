@@ -16,7 +16,7 @@ const ExteriorProjects = () => {
       {/* Background image - the actual image will be provided by you locally */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('/images/properties/penthouse/3.jpg')` }} // Placeholder image until you provide local image
+        style={{ backgroundImage: `url('/images/properties/irlanda/8.png')` }} // Placeholder image until you provide local image
       />
       
       {/* Overlay for better text readability - reversed direction */}

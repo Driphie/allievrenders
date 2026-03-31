@@ -11,6 +11,14 @@ const PropertyGrid = () => {
 
   const allProperties = [
     {
+      id: "1",
+      image: "/images/properties/property21.png",
+      title: "| FABRIK HAUSER | 2026",
+      location: "Lanus, Buenos Aires",
+      price: "SPS DESAROLLOS",
+      category: "desarrollos"
+    },
+    {
       id: "2",
       image: "/images/properties/property9.png",
       title: "| LUMINIS CASA & OFICINA | 2025",

@@ -21,9 +21,36 @@ export interface Property {
 }
 
 export const propertiesData: Record<string, Property> = {
+    "1": {
+    title: "| FABRIK HAUSER 1 |",
+    location: "LANUS, Buenos Aires",
+    price: "SPS | DESAROLLOS",
+    propertyType: "Edificio",
+    year: "2026",
+    description: "Fabrik Hauser 1 es un desarrollo inmobiliario contemporáneo, ubicado en Lanus, Buenos Aires. El proyecto busca combinar diseño moderno con una integración armónica al entorno urbano, aportando valor arquitectónico y funcional a la zona.",    
+    images: [
+      "/images/properties/fabrik/1.png",
+      "/images/properties/fabrik/2.png",
+      "/images/properties/fabrik/3.png",
+      "/images/properties/fabrik/4.png",
+      "/images/properties/fabrik/5.png",
+      "/images/properties/fabrik/6.png"
+    ],
+    features: [
+    ],
+    videoId: "MODV7whKNzc",
+    trailerId: "rNbdbMxvRJo",
+    statusImages: [
+      "/images/n1.png",
+      "/images/n1.png",
+      "/images/n1.png"
+    ],
+    whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
+    view360Url: "https://tour.panoee.net/69b9ef3ce1475b59b582d67f" 
+  },
   "2": {
     title: "| LUMINIS CASA & OFICINA |",
-    location: "Argentina, Buenos Aire",
+    location: "Argentina, Buenos Aires",
     price: "ALLIEV | DESING",
     propertyType: "Vivienda unifamiliar con espacio de oficina integrado",
     year: "2025",
@@ -57,8 +84,9 @@ export const propertiesData: Record<string, Property> = {
     year: "2024",
     description: "Irlanda Green es un desarrollo inmobiliario contemporáneo, ubicado en el corazón de Plaza Irlanda, Caballito. El proyecto busca combinar diseño moderno con una integración armónica al entorno urbano, aportando valor arquitectónico y funcional a la zona.",    
     images: [
-      "/images/properties/irlanda/1.png",
+      "/images/properties/irlanda/8.png",
       "/images/properties/irlanda/9.png",
+      "/images/properties/irlanda/1.png",
       "/images/properties/irlanda/4.png",
     ],
     features: [

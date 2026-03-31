@@ -9,7 +9,7 @@ const AboutUs = () => {
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-lg">
               <img
-                src="/images/about/about-us2.png"
+                src="/images/about/about-us3.JPG"
                 alt="Modern luxury home"
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />

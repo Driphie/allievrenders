@@ -11,7 +11,6 @@ import { ChevronDown } from "lucide-react";
 
 const FAQ = () => {
   const [showAllArch, setShowAllArch] = useState(false);
-  const [showAllWeb, setShowAllWeb] = useState(false);
 
   // Existing architecture visualization FAQs
   const initialArchFaqs = [
@@ -56,35 +55,8 @@ const FAQ = () => {
     }
   ];
 
-    // New web development FAQs
-  const initialWebFaqs = [
-    {
-      question: "¿Qué tipo de sitios web desarrollan?",
-      answer: "Creamos: ● Landing pages para venta de desarrollos ● Webs para estudios de arquitectura o construcción ● Sitios con portfolio de proyectos ● Integración con formularios, WhatsApp y redes sociales."
-    },
-    {
-      question: "¿Qué necesito para empezar mi web?",
-      answer: "Solo necesitamos: ● Logo y nombre del emprendimiento/estudio ● Fotos o renders del proyecto ● Información básica (ubicación, unidades, contacto)● Una idea del estilo visual que buscás. Si no tenés todo, te ayudamos a organizarlo."
-    },
-    {
-      question: "¿Pueden integrar WhatsApp, Google Maps?",
-      answer: "Sí, integramos links directos a WhatsApp, WhatsApp Business, Google Maps, catálogos descargables, videos, etc."
-    },
-    {
-      question: "¿Pueden cargar los renders que ustedes mismos hacen?",
-      answer: "¡Claro! Si trabajás con nosotros en visualización y web, optimizamos los renders y animaciones para que la web se vea increíble."
-    }
-  ];
-
-  const additionalWebFaqs = [
-    {
-      question: "¿Cuánto tarda y cuánto cuesta un sitio?",
-      answer: "Una landing puede estar lista en 7 a 10 días hábiles. Sitios más complejos requieren más tiempo. El precio varía según cantidad de secciones, funcionalidades y si hay diseño visual personalizado."
-    }
-  ];
 
   const displayedArchFaqs = showAllArch ? [...initialArchFaqs, ...additionalArchFaqs] : initialArchFaqs;
-  const displayedWebFaqs = showAllWeb ? [...initialWebFaqs, ...additionalWebFaqs] : initialWebFaqs;
 
   return (
     <section className="py-8 md:py-12 bg-gradient-to-br from-estate-50 to-estate-100" id="faq">
@@ -103,18 +75,12 @@ const FAQ = () => {
         </div>
 
         <Tabs defaultValue="arch" className="w-full">
-          <TabsList className="w-full grid grid-cols-2 mb-10 p-1 bg-zinc-100 rounded-xl">
+          <TabsList className="w-full grid grid-cols-1 mb-10 p-1 bg-zinc-100 rounded-xl">
             <TabsTrigger 
               value="arch" 
               className="text-xl py-4 rounded-lg data-[state=active]:bg-white data-[state=active]:shadow-md data-[state=active]:text-estate-800 transition-all duration-300"
             >
               Visualización 3D
-            </TabsTrigger>
-            <TabsTrigger 
-              value="web" 
-              className="text-lg py-4 rounded-lg data-[state=active]:bg-white data-[state=active]:shadow-md data-[state=active]:text-estate-800 transition-all duration-300"
-            >
-              Desarrollo Web
             </TabsTrigger>
           </TabsList>
           
@@ -155,44 +121,7 @@ const FAQ = () => {
               </div>
             )}
           </TabsContent>
-          
-          <TabsContent value="web">
-            <Accordion type="single" collapsible className="space-y-6">
-              {displayedWebFaqs.map((faq, index) => (
-                <AccordionItem
-                  key={index}
-                  value={`web-item-${index}`}
-                  className="bg-white rounded-xl shadow-md overflow-hidden opacity-0 animate-fadeIn border-none hover:shadow-lg transition-shadow duration-300"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <AccordionTrigger className="px-8 py-6 text-xl font-medium text-estate-800 hover:text-estate-600 transition-colors hover:no-underline">
-                    <div className="flex items-center">
-                      <div className="w-2 h-10 bg-estate-500 rounded-full mr-4 hidden md:block"></div>
-                      {faq.question}
-                    </div>
-                  </AccordionTrigger>
-                  <AccordionContent className="px-8 py-6 text-lg text-estate-600 leading-relaxed bg-zinc-50">
-                    <div className="ml-0 md:ml-6 border-l-2 border-estate-200 pl-6">
-                      {faq.answer}
-                    </div>
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-
-            {!showAllWeb && (
-              <div className="flex justify-center mt-10">
-                <Button
-                  onClick={() => setShowAllWeb(true)}
-                  variant="outline"
-                  className="group bg-white text-estate-600 border-estate-300 hover:bg-estate-100 hover:text-estate-800 transition-all duration-300 ease-in-out flex items-center gap-2"
-                >
-                  Ver más
-                  <ChevronDown className="w-4 h-4 group-hover:translate-y-1 transition-transform duration-300" />
-                </Button>
-              </div>
-            )}
-          </TabsContent>
+        
         </Tabs>
       </div>
     </section>
