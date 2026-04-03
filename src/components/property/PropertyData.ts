@@ -51,7 +51,7 @@ export const propertiesData: Record<string, Property> = {
     "8": {
     title: "| NAHUEL HUAPI |",
     location: "San Carlos de Bariloche, Argentina",
-    price: "ALLIEV | DESING",
+    price: "ALLIEV | RENDERS",
     propertyType: "Vivienda unifamiliar con vista al lago",
     year: "2026",
     description: "Ubicada sobre la costa del Lago Nahuel Huapi, en la exclusiva zona del Llao Llao, esta residencia es un exponente de arquitectura contemporánea patagónica. El proyecto integra materiales nobles como piedra y madera con líneas modernas, buscando una conexión directa con el paisaje cordillerano y aportando un diseño sofisticado a este entorno natural privilegiado.",    
@@ -82,7 +82,7 @@ export const propertiesData: Record<string, Property> = {
   "2": {
     title: "| LUMINIS CASA & OFICINA |",
     location: "Argentina, Buenos Aires",
-    price: "ALLIEV | DESING",
+    price: "ALLIEV | RENDERS",
     propertyType: "Vivienda unifamiliar con espacio de oficina integrado",
     year: "2025",
     description: "Luminis es un concepto innovador de vivienda unifamiliar con un espacio de oficina integrado, pensado para quienes buscan un equilibrio entre el hogar y el trabajo. Este proyecto es un diseño propio que no existe en la realidad, pero que explora las posibilidades de un espacio multifuncional, elegante y adaptado a las necesidades de la vida moderna.",    
@@ -281,7 +281,7 @@ export const propertiesData: Record<string, Property> = {
     "9": {
     title: "| PENTHOUSE |",
     location: "Argentina, Buenos Aire",
-    price: "ALLIEV | DESING",
+    price: "ALLIEV | RENDERS",
     propertyType: "Edificio Penthouse",
     year: "2022",
     description: "",    
@@ -310,7 +310,7 @@ export const propertiesData: Record<string, Property> = {
   "10": {
     title: "| HOME DECO |",
     location: "Argentina, Buenos Aires",
-    price: "Alliev Desing",
+    price: "ALLIEV | RENDERS",
     propertyType: "Showroom comercial",
     year: "2025",
     description: "",    

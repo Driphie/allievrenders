@@ -23,7 +23,7 @@ const PropertyGrid = () => {
       image: "/images/properties/property24.png",
       title: "| NAHUEL HUAPI | 2026",
       location: "San Carlos de Bariloche, Argentina",
-      price: "ALLIEV | DESING",
+      price: "ALLIEV | RENDERS",
       category: "autor"
     },
     {
@@ -31,7 +31,7 @@ const PropertyGrid = () => {
       image: "/images/properties/property9.png",
       title: "| LUMINIS CASA & OFICINA | 2025",
       location: "Argentina, Buenos Aires",
-      price: "ALLIEV | DESING",
+      price: "ALLIEV | RENDERS",
       category: "autor"
     },    
     {
@@ -55,7 +55,7 @@ const PropertyGrid = () => {
       image: "/images/properties/property11.png",
       title: "| PENTHOUSE | 2022",
       location: "Argentina, Buenos Aires",
-      price: "ALLIEV | DESING",
+      price: "ALLIEV | RENDERS",
       category: "autor"
     },
     {
