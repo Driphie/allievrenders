@@ -12,8 +12,12 @@ const ServicesSection = () => {
   const photorealismImages = [
     "/images/properties/luminis/2.png", 
     "/images/properties/luminis/4.png",
+    "/images/properties/bariloche/3.png",
+    "/images/properties/bariloche/4.png",
+    "/images/properties/bariloche/2.png",
     "/images/properties/penthouse/5.png",
     "/images/properties/penthouse/7.png",
+    "/images/properties/irlanda/8.png",
     "/images/properties/penthouse/2.jpg"
   ];
 

@@ -19,6 +19,14 @@ const PropertyGrid = () => {
       category: "desarrollos"
     },
     {
+      id: "8",
+      image: "/images/properties/property24.png",
+      title: "| NAHUEL HUAPI | 2026",
+      location: "San Carlos de Bariloche, Argentina",
+      price: "ALLIEV | DESING",
+      category: "autor"
+    },
+    {
       id: "2",
       image: "/images/properties/property9.png",
       title: "| LUMINIS CASA & OFICINA | 2025",
@@ -69,7 +77,7 @@ const PropertyGrid = () => {
     {
       id: "6",
       image: "/images/properties/property8.png",
-      title: "NICO REFORMA | 2024",
+      title: "| NICO REFORMA | 2024",
       location: "Teodelina, Santa Fe",
       price: "REFORMANDO CASAS",
       category: "reformas"

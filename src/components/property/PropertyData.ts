@@ -48,6 +48,37 @@ export const propertiesData: Record<string, Property> = {
     whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
     view360Url: "https://tour.panoee.net/69b9ef3ce1475b59b582d67f" 
   },
+    "8": {
+    title: "| NAHUEL HUAPI |",
+    location: "San Carlos de Bariloche, Argentina",
+    price: "ALLIEV | DESING",
+    propertyType: "Vivienda unifamiliar con vista al lago",
+    year: "2026",
+    description: "Ubicada sobre la costa del Lago Nahuel Huapi, en la exclusiva zona del Llao Llao, esta residencia es un exponente de arquitectura contemporánea patagónica. El proyecto integra materiales nobles como piedra y madera con líneas modernas, buscando una conexión directa con el paisaje cordillerano y aportando un diseño sofisticado a este entorno natural privilegiado.",    
+    images: [
+      "/images/properties/bariloche/8.png",
+      "/images/properties/bariloche/7.png",
+      "/images/properties/bariloche/9.png",
+      "/images/properties/bariloche/11.png",
+      "/images/properties/bariloche/12.png",
+      "/images/properties/bariloche/1.png",
+      "/images/properties/bariloche/2.png",
+      "/images/properties/bariloche/3.png",
+      "/images/properties/bariloche/4.png",
+      "/images/properties/bariloche/6.png",
+    ],
+    features: [
+    ],
+    videoId: "",
+    trailerId: "",
+    statusImages: [
+      "/images/n1.png",
+      "/images/n1.png",
+      "/images/n1.png"
+    ],
+    whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
+    view360Url: "" 
+  },
   "2": {
     title: "| LUMINIS CASA & OFICINA |",
     location: "Argentina, Buenos Aires",
