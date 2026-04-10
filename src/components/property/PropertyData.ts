@@ -34,7 +34,17 @@ export const propertiesData: Record<string, Property> = {
       "/images/properties/fabrik/3.png",
       "/images/properties/fabrik/4.png",
       "/images/properties/fabrik/5.png",
-      "/images/properties/fabrik/6.png"
+      "/images/properties/fabrik/6.png",
+      "/images/properties/fabrik/7.png",
+      "/images/properties/fabrik/8.png",
+      "/images/properties/fabrik/9.png",
+      "/images/properties/fabrik/10.png",
+      "/images/properties/fabrik/11.png",
+      "/images/properties/fabrik/12.png",
+      "/images/properties/fabrik/13.png",
+      "/images/properties/fabrik/14.png",
+      "/images/properties/fabrik/15.png",
+      "/images/properties/fabrik/16.png"
     ],
     features: [
     ],
