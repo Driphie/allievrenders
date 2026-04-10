@@ -47,24 +47,12 @@ const OurDifferential = () => {
 
           {/* Video Container - Right Side */}
           <div className="relative">
-            <div className="aspect-[9/16] bg-estate-100 rounded-lg overflow-hidden">
+            <div className="bg-estate-100 rounded-lg overflow-hidden">
               {/* Placeholder for video - 9:16 aspect ratio */}
               <div className="w-full h-full flex items-center justify-center text-estate-500">
                 <div className="text-center">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-estate-200 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
                   <p className="text-sm">
-                    <video 
-                      className="w-full h-full object-cover" 
-                      autoPlay 
-                      muted 
-                      loop
-                    >
-                      <source src="/images/videos/Video2.mp4" type="video/mp4" />
-                    </video>
+                    <img src="/images/about/about-us5.png" alt="" />
                   </p>
                 </div>
               </div>

@@ -92,7 +92,7 @@ const ServicesSection = () => {
         <div className="text-center mb-6">
           <div className="inline-flex items-center gap-2 bg-primary/5 px-6 py-2 rounded-full border border-primary/10 mb-6">
               <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Nuestros Servicios</span>
+              <span className="text-primary font-semibold text-xl uppercase tracking-wider">Nuestros Servicios</span>
             </div>
             <h3 className="text-4xl font-bold text-foreground mb-3">
               Visualizacion de proyectos inmobiliarios
