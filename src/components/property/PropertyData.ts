@@ -51,8 +51,8 @@ export const propertiesData: Record<string, Property> = {
     videoId: "MODV7whKNzc",
     trailerId: "rNbdbMxvRJo",
     statusImages: [
-      "/images/n1.png",
-      "/images/n1.png",
+      "/images/properties/penthouse/n1.png",
+      "/images/properties/penthouse/n2.png",
       "/images/n1.png"
     ],
     whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
