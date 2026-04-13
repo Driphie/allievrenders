@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import {
   Dialog,
   DialogContent,
-  DialogTrigger,
   DialogTitle,
   DialogClose,
 } from "@/components/ui/dialog";
@@ -16,6 +15,7 @@ const ServicesCarousel = ({ images }: ServicesCarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0);
   const [dialogOpen, setDialogOpen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,25 +25,64 @@ const ServicesCarousel = ({ images }: ServicesCarouselProps) => {
     return () => clearInterval(interval);
   }, [images.length]);
 
+  // Keyboard navigation
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (e.key === "ArrowLeft") {
+      setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+    } else if (e.key === "ArrowRight") {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }
+  }, [images.length]);
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    
+    const onFocus = () => window.addEventListener("keydown", handleKeyDown);
+    const onBlur = () => window.removeEventListener("keydown", handleKeyDown);
+    
+    el.addEventListener("mouseenter", onFocus);
+    el.addEventListener("mouseleave", onBlur);
+    // Also listen when focused via tab
+    el.addEventListener("focusin", onFocus);
+    el.addEventListener("focusout", onBlur);
+    
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      el.removeEventListener("mouseenter", onFocus);
+      el.removeEventListener("mouseleave", onBlur);
+      el.removeEventListener("focusin", onFocus);
+      el.removeEventListener("focusout", onBlur);
+    };
+  }, [handleKeyDown]);
+
   const goToPrevious = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
   const goToNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setCurrentIndex((prev) => (prev + 1) % images.length);
   };
 
-  const showNextImage = (e: React.MouseEvent) => {
-    e.stopPropagation();
+  const showNextImage = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
     setSelectedImageIndex((prev) => (prev + 1) % images.length);
   };
 
-  const showPreviousImage = (e: React.MouseEvent) => {
-    e.stopPropagation();
+  const showPreviousImage = (e?: React.MouseEvent) => {
+    e?.stopPropagation()
     setSelectedImageIndex((prev) => (prev - 1 + images.length) % images.length);
   };
+
+  // Keyboard navigation in fullscreen dialog
+  useEffect(() => {
+    if (!dialogOpen) return;
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") setSelectedImageIndex((prev) => (prev - 1 + images.length) % images.length);
+      else if (e.key === "ArrowRight") setSelectedImageIndex((prev) => (prev + 1) % images.length);
+    };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
+  }, [dialogOpen, images.length]);
 
   const handleImageClick = (index: number) => {
     setSelectedImageIndex(index);
@@ -51,13 +90,17 @@ const ServicesCarousel = ({ images }: ServicesCarouselProps) => {
   };
 
   return (
-    <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px] rounded-lg sm:rounded-xl overflow-hidden group shadow-lg bg-gray-50">
+    <div
+      ref={containerRef}
+      tabIndex={0}
+      className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px] rounded-lg sm:rounded-xl overflow-hidden group shadow-lg bg-muted/50 outline-none"
+    >
       <div 
         className="flex transition-transform duration-10 ease-in-out h-full"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {images.map((image, index) => (
-          <div 
+          <div
             key={index} 
             className="w-full h-full flex-shrink-0 flex items-center justify-center p-4 cursor-pointer group/image"
             onClick={() => handleImageClick(index)}
@@ -81,18 +124,14 @@ const ServicesCarousel = ({ images }: ServicesCarouselProps) => {
       {/* Navigation arrows */}
       <button
         onClick={goToPrevious}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 
-                   bg-black/50 hover:bg-black/70 text-white p-2 rounded-full
-                   opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       >
         <ChevronLeft className="w-4 h-4" />
       </button>
       
       <button
         onClick={goToNext}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 
-                   bg-black/50 hover:bg-black/70 text-white p-2 rounded-full
-                   opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       >
         <ChevronRight className="w-4 h-4" />
       </button>
@@ -104,7 +143,7 @@ const ServicesCarousel = ({ images }: ServicesCarouselProps) => {
             key={index}
             onClick={() => setCurrentIndex(index)}
             className={`w-2 h-2 rounded-full transition-colors duration-300 ${
-              index === currentIndex ? 'bg-white' : 'bg-white/50'
+              index === currentIndex ? "bg-white" : "bg-white/50"
             }`}
           />
         ))}

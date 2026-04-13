@@ -62,10 +62,6 @@ const Index = () => {
       <div className="opacity-0 animate-fadeIn" style={{ animationDelay: '800ms' }}>
         <LogoCarousel />
       </div>
-      
-      <div className="opacity-0 animate-fadeIn" style={{ animationDelay: '900ms' }}>
-        <Testimonials />
-      </div>
 
       <div className="opacity-0 animate-fadeIn" style={{ animationDelay: '1000ms' }}>
         <Contact />

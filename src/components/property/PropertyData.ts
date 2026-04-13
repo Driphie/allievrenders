@@ -30,20 +30,14 @@ export const propertiesData: Record<string, Property> = {
     description: "Fabrik Hauser 1 es un desarrollo inmobiliario contemporáneo, ubicado en Lanus, Buenos Aires. El proyecto busca combinar diseño moderno con una integración armónica al entorno urbano, aportando valor arquitectónico y funcional a la zona.",    
     images: [
       "/images/properties/fabrik/1.png",
-      "/images/properties/fabrik/2.png",
       "/images/properties/fabrik/3.png",
       "/images/properties/fabrik/4.png",
       "/images/properties/fabrik/5.png",
       "/images/properties/fabrik/6.png",
       "/images/properties/fabrik/7.png",
-      "/images/properties/fabrik/8.png",
-      "/images/properties/fabrik/9.png",
       "/images/properties/fabrik/10.png",
-      "/images/properties/fabrik/11.png",
-      "/images/properties/fabrik/12.png",
       "/images/properties/fabrik/13.png",
       "/images/properties/fabrik/14.png",
-      "/images/properties/fabrik/15.png",
       "/images/properties/fabrik/16.png"
     ],
     features: [
@@ -70,12 +64,9 @@ export const propertiesData: Record<string, Property> = {
       "/images/properties/bariloche/7.png",
       "/images/properties/bariloche/9.png",
       "/images/properties/bariloche/11.png",
-      "/images/properties/bariloche/12.png",
       "/images/properties/bariloche/1.png",
       "/images/properties/bariloche/2.png",
       "/images/properties/bariloche/3.png",
-      "/images/properties/bariloche/4.png",
-      "/images/properties/bariloche/6.png",
     ],
     features: [
     ],
@@ -334,6 +325,34 @@ export const propertiesData: Record<string, Property> = {
     features: [
       "",
       ""
+    ],
+    videoId: "",
+    trailerId: "",
+    statusImages: [
+      "/images/n1.png",
+      "/images/n1.png",
+      "/images/n1.png"
+    ],
+    whatsappLink: "https://wa.me/1123482822?text=Hola,%20queria%20un%20presupuesto%20mi nombre es %20",
+    view360Url: ""
+  },
+
+      "11": {
+    title: "| DUPLEX MEDITERRANEO | 2026",
+    location: "Ballester, Buenos Aire",
+    price: "ALLIEV | RENDERS",
+    propertyType: "Reforma",
+    year: "2026",
+    description: "",    
+    images: [
+      "/images/properties/ballester/5.png",
+      "/images/properties/ballester/1.png",
+      "/images/properties/ballester/9.png",
+      "/images/properties/ballester/13.png",
+      "/images/properties/ballester/16.png",
+      "/images/properties/ballester/18.png"                    
+    ],
+    features: [
     ],
     videoId: "",
     trailerId: "",

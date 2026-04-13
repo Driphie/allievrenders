@@ -1,4 +1,6 @@
 import { Facebook, Instagram, Linkedin, Twitter, MessageCircle, Youtube } from "lucide-react";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
@@ -70,7 +72,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="transition-all duration-300 hover:translate-x-2 hover:text-green-400 inline-flex items-center gap-2 group"
                 >
-                  <MessageCircle className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                  <FontAwesomeIcon icon={faWhatsapp} className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   +54 911 2348 2822
                 </a>
               </li>

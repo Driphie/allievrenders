@@ -6,15 +6,15 @@ const OurDifferential = () => {
   const differentialPoints = [
     {
       icon: Users,
-      title: "Asistencia a obra y reuniones presenciales en CABA"
+      title: "Lectura técnica y comercial de cada desarrollo"
     },
     {
       icon: MessageCircle,
-      title: "Comunicación clara y continua"
+      title: "Comunicación clara y seguimiento continuo"
     },
     {
       icon: Zap,
-      title: "Experiencias inmersivas: renders que conectan"
+      title: "Experiencias inmersivas que permiten entender el proyecto antes de construirlo"
     }
   ];
 

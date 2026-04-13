@@ -1,4 +1,6 @@
-import { MessageCircle } from "lucide-react";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
@@ -25,7 +27,7 @@ const WhatsAppFloat = () => {
           className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transform transition-all duration-300 hover:scale-110 hover:shadow-xl hover:animate-none"
           aria-label="Contactar por WhatsApp"
         >
-          <MessageCircle className="w-6 h-6" />
+          <FontAwesomeIcon icon={faWhatsapp} className="w-6 h-6" />
         </button>
       </div>
     </div>

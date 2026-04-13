@@ -26,23 +26,23 @@ const ServicesSection = () => {
       id: "fotorealismo",
       icon: Image,
       title: "Fotorealismo",
-     subtitle: "Visualización arquitectónica de alta calidad",
+     subtitle: "Visualización fotorealista para comunicar diseño, calidad y detalle.",
       description: "",
       content: <ServicesCarousel images={photorealismImages} />,
     },
     {
       id: "tour-cinematografico", 
       icon: Video,
-      title: "Tour Cinematográfico",
-      subtitle: "Experiencia inmersiva en movimiento",
+      title: "Video Cinematografico",
+      subtitle: "Recorridos visuales de alto impacto para presentar el proyecto con dinamismo.",
       description: "",
       content: <YouTubeVideo videoUrl="https://www.youtube.com/watch?v=xS0xsjwEkSw" title="Tour Cinematográfico" />,
     },
     {
       id: "tour-virtual",
       icon: Navigation, 
-      title: "Tour Virtual",
-      subtitle: "Navegación interactiva POV°",
+      title: "Video Recorrido Programado",
+      subtitle: "Recorridos visuales de alto impacto para presentar el proyecto con dinamismo",
       description: "",
       content: <YouTubeVideo videoUrl="https://www.youtube.com/watch?v=A_0Y2Xt4qLo" title="Tour Virtual 360°" />,
     },
@@ -50,7 +50,7 @@ const ServicesSection = () => {
       id: "contenido-visual",
       icon: Image,
       title: "Tour 360°", 
-      subtitle: "Navegación interactiva 360°",
+      subtitle: "Exploración interactiva del proyecto con una lectura espacial más clara.",
       description: "",
       content: <CustomIframe iframeUrl="https://tour.panoee.net/69443add5118c75f39115f7f" title="Contenido Visual" />,
       color: "bg-gradient-to-br from-neutral-50 to-gray-100"
@@ -92,14 +92,11 @@ const ServicesSection = () => {
         <div className="text-center mb-6">
           <div className="inline-flex items-center gap-2 bg-primary/5 px-6 py-2 rounded-full border border-primary/10 mb-6">
               <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-              <span className="text-primary font-semibold text-xl uppercase tracking-wider">Nuestros Servicios</span>
+              <span className="text-primary font-semibold text-xl uppercase tracking-wider">Servicios</span>
             </div>
             <h3 className="text-4xl font-bold text-foreground mb-3">
               Visualizacion de proyectos inmobiliarios
             </h3>
-            <p className="text-muted-foreground mx-auto max-w-2xl">
-             En ALLIEV creamos renders hiperrealistas y soluciones web pensadas para arquitectos, desarrolladores y constructores que necesitan claridad, precisión y respaldo en cada etapa del proyecto. Desde Buenos Aires y con presencia activa en obra, aportamos soluciones visuales y digitales que se ajustan a la realidad del desarrollo y suman valor desde el primer plano.
-            </p>
         </div>
       </div>
 

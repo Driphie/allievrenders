@@ -15,7 +15,16 @@ const PropertyDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Force scroll to top immediately and after a brief delay to override GSAP ScrollTrigger
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    const timeout = setTimeout(() => {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }, 50);
+    return () => clearTimeout(timeout);
   }, [id]);
 
   const propertyData = propertiesData[id as keyof typeof propertiesData];
@@ -51,7 +60,6 @@ const PropertyDetails = () => {
           view360Url={propertyData.view360Url}
           statusImages={propertyData.statusImages}
         />
-        <PropertyFeatures features={propertyData.features} />
                 
         {propertyData.testimonial && (
           <PropertyTestimonial 

@@ -43,6 +43,14 @@ const PropertyGrid = () => {
       category: "desarrollos"
     },
     {
+      id: "11",
+      image: "/images/properties/ballester/1.png",
+      title: "| DUPLEX MEDITERRANEO | 2026",
+      location: "Ballester, Buenos Aires",
+      price: "ALLIEV | DESING ",
+      category: "reformas"
+    },
+    {
       id: "4",
       image: "/images/properties/property10.png",
       title: "| ALBERDI | 2024",

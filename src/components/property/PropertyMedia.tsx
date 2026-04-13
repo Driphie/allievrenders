@@ -32,11 +32,11 @@ const PropertyMedia = ({ images, videoId, trailerId, view360Url, statusImages = 
   }, []);
   
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="w-full py-8">
       <Tabs defaultValue="photos" className="w-full">
         {isMobile ? (
           // Mobile view with scrollable tabs
-          <TabsList className="overflow-x-auto flex w-full mb-8 pb-1 justify-start gap-1 md:justify-center">
+          <TabsList className="overflow-x-auto flex w-full mb-8 pb-1 justify-start gap-1 md:justify-center px-4">
             <TabsTrigger value="photos" className="flex-shrink-0 flex items-center gap-1 whitespace-nowrap">
               <Camera className="w-4 h-4" />
               <span>Fotos</span>
@@ -57,50 +57,52 @@ const PropertyMedia = ({ images, videoId, trailerId, view360Url, statusImages = 
               <Building className="w-4 h-4" />
               <span>Estado de obra</span>
             </TabsTrigger>
+            
           </TabsList>
         ) : (
-          // Desktop view with fixed tabs
-          <TabsList className="grid w-full grid-cols-5 mb-8">
-            <TabsTrigger value="photos" className="flex items-center gap-2">
-              <Camera className="w-4 h-4" />
-              <span>Fotos</span>
-            </TabsTrigger>
-            <TabsTrigger value="video" className="flex items-center gap-2">
-              <Video className="w-4 h-4" />
-              <span>Video Tour</span>
-            </TabsTrigger>
-            <TabsTrigger value="trailer" className="flex items-center gap-2">
-              <Film className="w-4 h-4" />
-              <span>Trailer</span>
-            </TabsTrigger>
-            <TabsTrigger value="360" className="flex items-center gap-2">
-              <Rotate3d className="w-4 h-4" />
-              <span>360°</span>
-            </TabsTrigger>
-            <TabsTrigger value="status" className="flex items-center gap-2">
-              <Building className="w-4 h-4" />
-              <span>Estado de obra</span>
-            </TabsTrigger>
-          </TabsList>
+          <div className="max-w-4xl mx-auto px-4">
+            <TabsList className="grid w-full grid-cols-5 mb-8">
+              <TabsTrigger value="photos" className="flex items-center gap-2">
+                <Camera className="w-4 h-4" />
+                <span>Fotos</span>
+              </TabsTrigger>
+              <TabsTrigger value="video" className="flex items-center gap-2">
+                <Video className="w-4 h-4" />
+                <span>Video Tour</span>
+              </TabsTrigger>
+              <TabsTrigger value="trailer" className="flex items-center gap-2">
+                <Film className="w-4 h-4" />
+                <span>Trailer</span>
+              </TabsTrigger>
+              <TabsTrigger value="360" className="flex items-center gap-2">
+                <Rotate3d className="w-4 h-4" />
+                <span>360°</span>
+              </TabsTrigger>
+              <TabsTrigger value="status" className="flex items-center gap-2">
+                <Building className="w-4 h-4" />
+                <span>Estado de obra</span>
+              </TabsTrigger>
+            </TabsList>
+          </div>
         )}
         
         <TabsContent value="photos" className="mt-0">
           <PropertyImageCarousel images={images} />
         </TabsContent>
         
-        <TabsContent value="video" className="mt-0">
+        <TabsContent value="video" className="mt-0 max-w-4xl mx-auto px-4">
           <PropertyVideo videoId={videoId} />
         </TabsContent>
         
-        <TabsContent value="trailer" className="mt-0">
+        <TabsContent value="trailer" className="mt-0 max-w-4xl mx-auto px-4">
           <PropertyTrailer trailerId={trailerId} />
         </TabsContent>
 
-        <TabsContent value="360" className="mt-0">
+        <TabsContent value="360" className="mt-0 max-w-4xl mx-auto px-4">
           <Property360View url={view360Url} />
         </TabsContent>
 
-        <TabsContent value="status" className="mt-0">
+        <TabsContent value="status" className="mt-0 max-w-4xl mx-auto px-4">
           <PropertyStatus images={statusImages} />
         </TabsContent>
       </Tabs>

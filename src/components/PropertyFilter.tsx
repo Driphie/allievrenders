@@ -14,7 +14,6 @@ const PropertyFilter = ({ onFilterChange, activeFilter }: PropertyFilterProps) =
     { id: "desarrollos", label: "Desarrollos" },
     { id: "comerciales", label: "Comerciales" },
     { id: "reformas", label: "Reformas" },
-    { id: "concurso", label: "Concurso" },
     { id: "autor", label: "De Autor" }
   ];
 

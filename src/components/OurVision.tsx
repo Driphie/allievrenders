@@ -25,7 +25,7 @@ const OurVision = () => {
       </div>
       
       {/* New Exterior Projects section - full width */}
-      <ExteriorProjects />
+
       
     </>
   );
